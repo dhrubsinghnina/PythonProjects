@@ -43,7 +43,7 @@ class ImageDrawing():
         cv2.destroyAllWindows()
     def saveImage(self):
         name=input("Enter name of the file:")
-        cv2.imwrite(f"C:/Users/dhrub/OneDrive/Desktop/gitupdate/PythonProjects/Cv2_drawing_OnImage/DrawnImages/{name}",self.image)
+        cv2.imwrite(f"Cv2_drawing_OnImage/DrawnImages/{name}",self.image)
 x=int(input("Enter 1 for read image:"))
 while x==1:
     path=input("Enter path of the image :")
